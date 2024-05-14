@@ -1,0 +1,13 @@
+USE CASE Relation pilote – spaceship
+
+1)	Scénario nominal : 
+-Un vol est planifié entre une planète A et une planète B
+-> Calcul de l’itinéraire le plus court pour la destination
+Possibilité d’escale
+->Recherche de vaisseau disponible ayant la capacité de réaliser le vol 
+ERREUR 1 : Pas de vaisseaux/pilotes disponibles maintenant -> proposition de date ultérieure pour le vol ou escale
+ERREUR 2 : Aucun vaisseau ne peut couvrir la distance -> proposition de différentes escales donc recalcul de vol
+->Recherche de pilote ayant le permis requis pour piloter le vaisseau (à confirmer
+ERREUR 1 : Pas de vaisseaux/pilotes disponibles maintenant -> proposition de date ultérieure pour le vol ou escale
+ERREUR 3 : Nouveau type de vaisseau -> nouveau type de permis ? 
+-> Calcul de l’estimation de temps requis pour le trajet en fonction de la vitesse du vaisseau et des obstacles éventuels 
