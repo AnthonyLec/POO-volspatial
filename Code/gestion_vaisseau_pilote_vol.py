@@ -1,4 +1,5 @@
 import random
+import tkinter
 
 class Human:
     def __init__(self, name, age):
@@ -271,4 +272,80 @@ def add_passenger(self, passenger, control_center):
         return False
 """
 
+#Proposition de méthode pour ajouter les pilotes au fichier data.json
+"""def save_pilot_to_json(pilot): 
+    try:
+        # Read existing data
+        with open('data.json', 'r') as file:
+            data = json.load(file)
+    except FileNotFoundError:
+        # If file not found, create a new list
+        data = []
 
+    # Add the new pilot
+    data.append({
+        "name": pilot.name,
+        "age": pilot.age,
+        "license": pilot.license,
+        "spaceship": pilot.spaceship
+    })
+
+    # Save the updated data
+    with open('data.json', 'w') as file:
+        json.dump(data, file, indent=4)
+
+def add_pilot():
+    name = name_entry.get()
+    age = age_entry.get()
+    license = license_entry.get()
+    spaceship = spaceship_entry.get()
+
+    if not name or not age or not license:
+        messagebox.showwarning("Input Error", "Name, age, and license are required fields.")
+        return
+
+    try:
+        age = int(age)
+    except ValueError:
+        messagebox.showwarning("Input Error", "Age must be a number.")
+        return
+
+    new_pilot = Pilot(name, age, license, spaceship)
+    save_pilot_to_json(new_pilot)
+    messagebox.showinfo("Success", "Pilot added successfully.")
+
+    # Clear the entry fields
+    name_entry.delete(0, tk.END)
+    age_entry.delete(0, tk.END)
+    license_entry.delete(0, tk.END)
+    spaceship_entry.delete(0, tk.END)
+
+# Create the main window
+root = tk.Tk()
+root.title("Spacecraft Pilot Manager")
+
+# Create and place the labels and entry widgets
+tk.Label(root, text="Name:").grid(row=0, column=0)
+name_entry = tk.Entry(root)
+name_entry.grid(row=0, column=1)
+
+tk.Label(root, text="Age:").grid(row=1, column=0)
+age_entry = tk.Entry(root)
+age_entry.grid(row=1, column=1)
+
+tk.Label(root, text="License:").grid(row=2, column=0)
+license_entry = tk.Entry(root)
+license_entry.grid(row=2, column=1)
+
+tk.Label(root, text="Spaceship:").grid(row=3, column=0)
+spaceship_entry = tk.Entry(root)
+spaceship_entry.grid(row=3, column=1)
+
+# Create and place the add button
+add_button = tk.Button(root, text="Add Pilot", command=add_pilot)
+add_button.grid(row=4, columnspan=2)
+
+# Start the main loop
+root.mainloop()
+
+"""
