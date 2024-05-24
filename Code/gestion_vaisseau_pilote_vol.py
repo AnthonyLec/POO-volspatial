@@ -126,9 +126,13 @@ class Spaceship:
 
 class Planet:
     destination_possible = []
-    def __init__(self, name, distance_from_earth): #Ajouter taille, orbite, vitesse de rotation, cycle jour/nuit ?
+    def __init__(self, name, distance_from_earth,height,orbit,rotation_speed,day_night_cycle):
         self.name = name 
         self.distance_from_earth = distance_from_earth
+        self.height = height #rayon, déduire la moitié de la distance à parcourir (1 unité = 1000km de rayon)
+        self.orbit = orbit #utilité ?
+        self.rotation_speed = rotation_speed #utile ?
+        self.day_night_cycle = day_night_cycle #pour indiquer si l'atterissage se fait de jour ou de nuit
         Planet.destination_possible.append(self)
     
     
@@ -195,11 +199,11 @@ class ControlRoom: #Centre de contrôle
 centre = ControlRoom()
 
 #Création des planètes
-p1 = Planet("Mars", 100)
-p2 = Planet("Mercure", 200)
-p3 = Planet("Jupiter", 300)
-p4 = Planet("Venus", 400)
-p5 = Planet("Uranus", 500)
+p1 = Planet("Mars", 100, 3)
+p2 = Planet("Mercure", 200, 2)
+p3 = Planet("Jupiter", 300, 69)
+p4 = Planet("Venus", 400, 6)
+p5 = Planet("Uranus", 500, 25)
 
 #Création des pilotes
 pilot = Pilot("Albert",44,1)
