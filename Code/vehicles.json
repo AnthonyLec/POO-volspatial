@@ -1,0 +1,14 @@
+[
+    {
+        "id": "55e90bb7-d15f-414b-8ce5-804d4170bbe3",
+        "model": "Ferrari",
+        "capacity": "10",
+        "year_of_creation": "2005"
+    },
+    {
+        "id": "5eab70ea-bc08-4a94-be66-b774456c7417",
+        "model": "Ax_231",
+        "capacity": "200",
+        "year_of_creation": "2024"
+    }
+]

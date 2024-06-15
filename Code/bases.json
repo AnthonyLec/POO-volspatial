@@ -1,0 +1,44 @@
+[
+    {
+        "id": "380dc5df-d95e-4c25-8485-1393d0040255",
+        "name": "Moon",
+        "location": "Moon",
+        "x": "100",
+        "y": "200"
+    },
+    {
+        "id": "e43ff9ae-ce01-41d1-9ce8-c1a018833dae",
+        "name": "Mars",
+        "location": "Mars",
+        "x": "200",
+        "y": "300"
+    },
+    {
+        "id": "f45f2119-43bf-44b7-a4b8-98383c02057a",
+        "name": "Jupiter",
+        "location": "Jupiter",
+        "x": "200",
+        "y": "250"
+    },
+    {
+        "id": "f9f3f88d-f50b-4d77-b8b5-72ef72aafbca",
+        "name": "Venus",
+        "location": "Venus",
+        "x": "50",
+        "y": "300"
+    },
+    {
+        "id": "befb0655-890c-411f-9058-31bab532635d",
+        "name": "Earth",
+        "location": "Earth",
+        "x": "1",
+        "y": "1"
+    },
+    {
+        "id": "644a9250-2d33-4927-8d93-36f5f80cc7a1",
+        "name": "Uranus",
+        "location": "Uranus",
+        "x": "300",
+        "y": "50"
+    }
+]

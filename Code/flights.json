@@ -1,0 +1,30 @@
+[
+    {
+        "id": "08c268b6-00bc-4a5a-bffd-c784d034bf35",
+        "itinerary_id": "88c6dcb0-9a21-49cf-8e53-68ca0dd662ce",
+        "vehicle_id": "55e90bb7-d15f-414b-8ce5-804d4170bbe3",
+        "passenger_ids": [
+            "4ab244a5-58ce-45c3-99a0-38c40b134986"
+        ],
+        "pilot_id": "029ccfe6-79bc-491c-9f1c-39ec386ee2d8",
+        "date": "2024-06-15",
+        "notifications": [
+            "An obstacle has been hit at coordinates [158.0, 258.0, 174.0, 274.0].",
+            "An obstacle has been hit at coordinates [140.0, 240.0, 156.0, 256.0].",
+            "An obstacle has been hit at coordinates [150.0, 250.0, 166.0, 266.0]."
+        ]
+    },
+    {
+        "id": "c60daef2-0eac-4a58-962b-99d99982fb52",
+        "itinerary_id": "e99ebac1-a131-4e65-b784-e12eb6b2c39a",
+        "vehicle_id": "5eab70ea-bc08-4a94-be66-b774456c7417",
+        "passenger_ids": [
+            "4ab244a5-58ce-45c3-99a0-38c40b134986"
+        ],
+        "pilot_id": "17ab1301-1871-4053-b8cc-19dcbf762724",
+        "date": "2024-06-21",
+        "notifications": [
+            "An obstacle has been hit at coordinates [50.41999999999997, 108.42000000000002, 66.41999999999996, 124.42000000000004]."
+        ]
+    }
+]

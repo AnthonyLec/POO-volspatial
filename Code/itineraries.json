@@ -1,0 +1,26 @@
+[
+    {
+        "id": "88c6dcb0-9a21-49cf-8e53-68ca0dd662ce",
+        "name": "Moon-Mars",
+        "base_ids": [
+            "380dc5df-d95e-4c25-8485-1393d0040255",
+            "e43ff9ae-ce01-41d1-9ce8-c1a018833dae"
+        ]
+    },
+    {
+        "id": "e99ebac1-a131-4e65-b784-e12eb6b2c39a",
+        "name": "Earth-Moon",
+        "base_ids": [
+            "befb0655-890c-411f-9058-31bab532635d",
+            "380dc5df-d95e-4c25-8485-1393d0040255"
+        ]
+    },
+    {
+        "id": "c512b35b-42e4-4b6b-b23b-7c1e2cbc38d6",
+        "name": "Moon-Venus",
+        "base_ids": [
+            "380dc5df-d95e-4c25-8485-1393d0040255",
+            "f9f3f88d-f50b-4d77-b8b5-72ef72aafbca"
+        ]
+    }
+]

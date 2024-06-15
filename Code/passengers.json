@@ -1,0 +1,19 @@
+[
+    {
+        "id": "4ab244a5-58ce-45c3-99a0-38c40b134986",
+        "last_name": "Leclercq",
+        "first_name": "Arthur",
+        "age": "12",
+        "reserved_flights": [
+            "08c268b6-00bc-4a5a-bffd-c784d034bf35",
+            "c60daef2-0eac-4a58-962b-99d99982fb52"
+        ]
+    },
+    {
+        "id": "15f9ce7e-67c6-4bc2-8d4c-2ca7abd242b4",
+        "last_name": "Woi",
+        "first_name": "Shen",
+        "age": "90",
+        "reserved_flights": []
+    }
+]
